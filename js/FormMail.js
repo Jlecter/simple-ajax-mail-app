@@ -34,7 +34,7 @@ $("#sendMail").on("click", function (){
         },
         success: function(data) {
             if (!data) {
-                alert('Sorry, happened error. Wait for updates!');
+                $("#errorMessage").text("Sorry, some problems. Wait for updates!");
             }else {
                 $("#mailForm").trigger("reset");
             }

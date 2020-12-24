@@ -8,8 +8,8 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 </head>
 <body>
-    <div class="container">
-        <h1 align="center">Feedback</h1>
+    <div class="container"><br>
+        <h1 align="center">Feedback</h1><br>
         <form id="mailForm">
             <input type="email" id="email" name="email" placeholder="Email" class="form-control"><br>
             <input type="text" id="name" name="name" placeholder="Name" class="form-control"><br>
@@ -17,7 +17,7 @@
             <textarea id="message" name="message" placeholder="Message" class="form-control"></textarea><br>
             <button type="button" id="sendMail" class="btn btn-success">Send</button>
         </form>
-        <div id="errorMessage"></div>
+        <div id="errorMessage" class="text-center text-danger"></div>
     </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="js/FormMail.js"></script>
