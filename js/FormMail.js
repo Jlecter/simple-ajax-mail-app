@@ -37,6 +37,7 @@ $("#sendMail").on("click", function (){
                 $("#errorMessage").text("Sorry, some problems. Wait for updates!");
             }else {
                 $("#mailForm").trigger("reset");
+                $("#errorMessage").text("Your feedback was sent!");
             }
             $("#sendMail").prop("disabled", false);
         }

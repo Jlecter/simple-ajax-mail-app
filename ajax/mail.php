@@ -11,7 +11,7 @@ $message = $_POST['message'];
 /**
  * Set arguments for mail.
  */
-$subject = "=?utf-B?B?" . base64_encode("Message from ZhyDeveloper") . "?=";
+$subject = "=?utf-B?B?" . base64_encode("Messenger") . "?=";
 $headers = "From: $email\r\nReply-to: $email\r\nContent-type: text/html; charset=utf-8\r\n";
 
 /**
